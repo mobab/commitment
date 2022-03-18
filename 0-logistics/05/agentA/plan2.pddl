@@ -1,0 +1,18 @@
+
+; Version LPG-td-1.0
+; Seed 4
+; Command line: ./lpg-td-1.0 -o domain.pddl -f problem2.pddl -n 7 -seed 4 
+; Problem problem2.pddl
+; Time 0.00
+; Search time 0.00
+; Parsing time 0.00
+; Mutex time 0.00
+; MakeSpan 404.00
+
+0.0003:   (LOAD PACKAGE0 DRIVER0 VEHICLE3 VILLAGE2) [17.0000]
+17.0005:   (BOARD DRIVER0 VEHICLE3 VILLAGE2) [10.0000]
+27.0007:   (DRIVE-VAN DRIVER0 VEHICLE3 VILLAGE2 CITY1) [350.0000]
+377.0010:   (DISEMBARK DRIVER0 VEHICLE3 CITY1) [10.0000]
+387.0013:   (UNLOAD PACKAGE0 DRIVER0 VEHICLE3 CITY1) [17.0000]
+
+
