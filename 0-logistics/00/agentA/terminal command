@@ -1,0 +1,1 @@
+./tflap problems/logistics/00/agentA/domain.pddl problems/logistics/00/agentA/problem2.pddl problems/logistics/00/agentA/plan2_ctflap.pddl -plan problems/logistics/00/agentA/plan1.pddl -improve_timeout 60
