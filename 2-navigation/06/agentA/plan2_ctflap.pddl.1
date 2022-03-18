@@ -1,0 +1,14 @@
+0.010: (equip-battery battery00 robot00 room10) [15.000]
+15.020: (move robot00 room10 corridor00 battery00) [50.000]
+65.030: (equip-key key01c robot00 corridor00 battery00) [15.000]
+80.040: (unlock-door robot00 corridor00 corridor01 door01c key01c battery00) [500.000]
+580.050: (pass-door robot00 corridor00 corridor01 door01c battery00) [150.000]
+730.060: (equip-key key02c robot00 corridor01 battery00) [15.000]
+745.070: (unlock-door robot00 corridor01 room00 door02c key02c battery00) [500.000]
+1245.090: (pass-door robot00 corridor01 room00 door02c battery00) [125.000]
+;Makespan: 1370.090
+;Actions:  8
+;CommitmentDistance: 0.301
+;Planning time: 0.118
+;Total time: 0.201
+;21 expanded nodes
