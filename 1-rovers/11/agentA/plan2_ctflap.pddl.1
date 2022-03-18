@@ -1,0 +1,20 @@
+5.010: (equip rover0 camera2 safebox0 waypoint0) [2.000]
+7.020: (navigate rover0 waypoint0 waypoint3) [5.000]
+12.030: (navigate rover0 waypoint3 waypoint1) [5.000]
+17.040: (navigate rover0 waypoint1 waypoint2) [5.000]
+22.050: (calibrate rover0 camera2 objective0 waypoint2) [5.000]
+27.060: (take_image rover0 waypoint2 objective0 camera2 low_res) [7.000]
+34.070: (unequip rover0 camera2 safebox1 waypoint2) [2.000]
+36.080: (communicate_image_data rover0 general objective0 low_res waypoint2 waypoint0) [15.000]
+51.090: (equip rover0 soil_analyser0 safebox1 waypoint2) [2.000]
+53.100: (sample_soil rover0 rover0store waypoint2 soil_analyser0) [10.000]
+63.110: (drop rover0 rover0store) [1.000]
+64.120: (communicate_soil_data rover0 general waypoint2 waypoint2 waypoint0) [10.000]
+74.130: (unequip rover0 soil_analyser0 safebox1 waypoint2) [2.000]
+76.140: (navigate rover0 waypoint2 waypoint1) [5.000]
+;Makespan: 76.140
+;Actions:  14
+;CommitmentDistance: 0.069
+;Planning time: 0.433
+;Total time: 0.451
+;362 expanded nodes
