@@ -1,0 +1,14 @@
+45.010: (equip rover0 camera2 safebox0 waypoint0) [2.000]
+47.020: (navigate rover0 waypoint0 waypoint3) [5.000]
+52.030: (navigate rover0 waypoint3 waypoint1) [5.000]
+57.040: (calibrate rover0 camera2 objective0 waypoint1) [5.000]
+62.050: (take_image rover0 waypoint1 objective0 camera2 low_res) [7.000]
+69.060: (navigate rover0 waypoint1 waypoint2) [5.000]
+74.070: (unequip rover0 camera2 safebox1 waypoint2) [2.000]
+76.080: (communicate_image_data rover0 general objective0 low_res waypoint2 waypoint0) [15.000]
+;Makespan: 46.080
+;Actions:  8
+;CommitmentDistance: 0.144
+;Planning time: 0.064
+;Total time: 0.085
+;35 expanded nodes
