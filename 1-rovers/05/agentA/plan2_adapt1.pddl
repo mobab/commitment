@@ -1,0 +1,20 @@
+
+; Version LPG-adapt-1.0
+; Seed 2
+; Command line: ./lpg-adapt -o domain.pddl -f problem2.pddl -input_plan plan1.pddl -n 10 -seed 2 
+; Problem problem2.pddl
+; Time 0.00
+; Search time 0.00
+; Parsing time 0.00
+; Mutex time 0.00
+; MakeSpan 81.00
+
+; Distance from input plan: 4 + 4 = 8
+
+40.0003:   (EQUIP ROVER0 CAMERA1 SAFEBOX1 WAYPOINT2) [2.0000]
+42.0005:   (NAVIGATE ROVER0 WAYPOINT2 WAYPOINT1) [5.0000] ;; InputAct 
+47.0008:   (CALIBRATE ROVER0 CAMERA1 OBJECTIVE0 WAYPOINT1) [5.0000]
+52.0010:   (TAKE_IMAGE ROVER0 WAYPOINT1 OBJECTIVE0 CAMERA1 LOW_RES) [7.0000]
+59.0012:   (COMMUNICATE_IMAGE_DATA ROVER0 GENERAL OBJECTIVE0 LOW_RES WAYPOINT1 WAYPOINT0) [15.0000] ;; InputAct 
+74.0015:   (NAVIGATE ROVER0 WAYPOINT1 WAYPOINT2) [5.0000] ;; InputAct 
+79.0018:   (UNEQUIP ROVER0 CAMERA1 SAFEBOX1 WAYPOINT2) [2.0000]
